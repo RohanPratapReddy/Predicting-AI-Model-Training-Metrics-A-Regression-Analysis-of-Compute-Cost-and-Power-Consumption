@@ -1,0 +1,1 @@
+# Predicting-AI-Model-Training-Metrics-A-Regression-Analysis-of-Compute-Cost-and-Power-Consumption
