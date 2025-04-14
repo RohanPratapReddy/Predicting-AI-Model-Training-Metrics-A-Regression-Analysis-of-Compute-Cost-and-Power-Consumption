@@ -1,6 +1,7 @@
 🚀 Predicting AI Model Resource Usage using Regression Techniques
 
 Author: Rohan Pratap Reddy Ravula
+University: Wentworth Institute of Technology
 Course: DATA 6250 - Machine Learning for Data Science
 Instructor: Dr. Memo Ergezer
 Term: Spring 2025
