@@ -1,0 +1,252 @@
+{
+  "original": {
+    "SVR": {
+      "best_parameters": {
+        "svr_C": 1.0,
+        "svr_gamma": "scale",
+        "svr_kernel": "rbf"
+      },
+      "best_r2_score": 0.8359581554086049
+    },
+    "Gradient Boosting": {
+      "best_parameters": {
+        "learning_rate": 0.03,
+        "max_depth": 3,
+        "n_estimators": 150
+      },
+      "best_r2_score": 0.9403428031286292
+    },
+    "Random Forest": {
+      "best_parameters": {
+        "max_depth": 12,
+        "min_samples_split": 3,
+        "n_estimators": 30
+      },
+      "best_r2_score": 0.9482369026340054
+    },
+    "Decision Tree": {
+      "best_parameters": {
+        "max_depth": 13,
+        "min_samples_leaf": 1,
+        "max_features": null
+      },
+      "best_r2_score": 0.8454353088836903
+    },
+    "Linear Regression": {
+      "best_parameters": {},
+      "best_r2_score": 0.815386759673579
+    },
+    "Ridge": {
+      "best_parameters": {
+        "ridge_alpha": 1.0
+      },
+      "best_r2_score": 0.8122251459810352
+    },
+    "Lasso": {
+      "best_parameters": {
+        "lasso_alpha": 0.01
+      },
+      "best_r2_score": 0.8200777657291579
+    }
+  },
+  "experiment-1": {
+    "SVR": {
+      "best_parameters": {
+        "svr_C": 2,
+        "svr_gamma": "scale",
+        "svr_kernel": "rbf"
+      },
+      "best_r2_score": 0.8394208155462396
+    },
+    "Gradient Boosting": {
+      "best_parameters": {
+        "learning_rate": 0.5,
+        "max_depth": 5,
+        "n_estimators": 70
+      },
+      "best_r2_score": 0.9258474065837645
+    },
+    "Random Forest": {
+      "best_parameters": {
+        "max_depth": 13,
+        "min_samples_split": 2,
+        "n_estimators": 10
+      },
+      "best_r2_score": 0.911423389432095
+    },
+    "Decision Tree": {
+      "best_parameters": {
+        "max_depth": 19,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2
+      },
+      "best_r2_score": 0.89765488690454
+    },
+    "Linear Regression": {
+      "best_parameters": {},
+      "best_r2_score": 0.2078406594865243
+    },
+    "Ridge": {
+      "best_parameters": {
+        "ridge_alpha": 1.0
+      },
+      "best_r2_score": 0.5123567954946965
+    },
+    "Lasso": {
+      "best_parameters": {
+        "lasso_alpha": 0.01
+      },
+      "best_r2_score": 0.5394951770943975
+    }
+  },
+  "experiment-2": {
+    "SVR": {
+      "best_parameters": {
+        "svr_C": 10,
+        "svr_gamma": "scale",
+        "svr_kernel": "linear"
+      },
+      "best_r2_score": -0.1535659177387588
+    },
+    "Gradient Boosting": {
+      "best_parameters": {
+        "learning_rate": 0.5,
+        "max_depth": 2,
+        "n_estimators": 160
+      },
+      "best_r2_score": 0.9225521444477781
+    },
+    "Random Forest": {
+      "best_parameters": {
+        "max_depth": 15,
+        "min_samples_split": 2,
+        "n_estimators": 10
+      },
+      "best_r2_score": 0.8226238316160608
+    },
+    "Decision Tree": {
+      "best_parameters": {
+        "max_depth": 11,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2
+      },
+      "best_r2_score": 0.8395725370337773
+    },
+    "Linear Regression": {
+      "best_parameters": {},
+      "best_r2_score": -0.7851752416935309
+    },
+    "Ridge": {
+      "best_parameters": {
+        "ridge_alpha": 1000
+      },
+      "best_r2_score": 0.0933682556355464
+    },
+    "Lasso": {
+      "best_parameters": {
+        "lasso_alpha": 0.001
+      },
+      "best_r2_score": -0.8155622690678268
+    }
+  },
+  "experiment-3": {
+    "SVR": {
+      "best_parameters": {
+        "svr_C": 10,
+        "svr_gamma": "scale",
+        "svr_kernel": "poly"
+      },
+      "best_r2_score": -0.15355700336781514
+    },
+    "Gradient Boosting": {
+      "best_parameters": {
+        "learning_rate": 0.5,
+        "max_depth": 2,
+        "n_estimators": 110
+      },
+      "best_r2_score": 0.8858296007891167
+    },
+    "Random Forest": {
+      "best_parameters": {
+        "max_depth": 6,
+        "min_samples_split": 2,
+        "n_estimators": 10
+      },
+      "best_r2_score": 0.7769415834696772
+    },
+    "Decision Tree": {
+      "best_parameters": {
+        "max_depth": 11,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2
+      },
+      "best_r2_score": 0.6626469292806894
+    },
+    "Linear Regression": {
+      "best_parameters": {},
+      "best_r2_score": 0.24764737535762
+    },
+    "Ridge": {
+      "best_parameters": {
+        "ridge_alpha": 100
+      },
+      "best_r2_score": 0.21522922830654698
+    },
+    "Lasso": {
+      "best_parameters": {
+        "lasso_alpha": 1000
+      },
+      "best_r2_score": 0.21138643039809785
+    }
+  },
+  "experiment-4": {
+    "SVR": {
+      "best_parameters": {
+        "svr_C": 10,
+        "svr_gamma": "scale",
+        "svr_kernel": "linear"
+      },
+      "best_r2_score": -0.15355696587287482
+    },
+    "Gradient Boosting": {
+      "best_parameters": {
+        "learning_rate": 0.06,
+        "max_depth": 5,
+        "n_estimators": 200
+      },
+      "best_r2_score": 0.9476606282941604
+    },
+    "Random Forest": {
+      "best_parameters": {
+        "max_depth": null,
+        "min_samples_split": 3,
+        "n_estimators": 20
+      },
+      "best_r2_score": 0.9092772117369853
+    },
+    "Decision Tree": {
+      "best_parameters": {
+        "max_depth": 19,
+        "min_samples_leaf": 1,
+        "min_samples_split": 4
+      },
+      "best_r2_score": 0.9285199771661867
+    },
+    "Linear Regression": {
+      "best_parameters": {},
+      "best_r2_score": 0.20689245834921666
+    },
+    "Ridge": {
+      "best_parameters": {
+        "ridge_alpha": 1000
+      },
+      "best_r2_score": 0.23473634967232174
+    },
+    "Lasso": {
+      "best_parameters": {
+        "lasso_alpha": 1000
+      },
+      "best_r2_score": 0.2068924699756111
+    }
+  }
+}
